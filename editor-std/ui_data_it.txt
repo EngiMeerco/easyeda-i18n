@@ -46,7 +46,7 @@ Cadence... =
 Pads... = 
 DXF = 
 Import = Importa
-Super Menu =
+Super Menu = Super Menu
 
 Edit = Modifica
 Undo = Annulla
@@ -133,7 +133,7 @@ Bus Entry =
 Junction = Giunzione
 Net Port = Porta di rete
 Voltage Probe = Sonda di tensione
-Power Port = 
+Power Port = Porta di alimentazione
 Wire = Filo
 Annotation = Annotazione
 Track = Pista
@@ -173,8 +173,8 @@ Change to Simulation Mode = Passa a Modalità Simulazione
 Welcome to Use LCEDA = Benvenuto in LCEDA
 Welcome to Use EasyEDA = Benvenuto in EasyEDA
 Enable Education Edition Features for Free >>> = Abilita gratuitamente la versione Education >>>
-Quick Start = 
-More Help =
+Quick Start = Avvio rapido
+More Help = Altro Aiuto
 Explore = Esplora
 Message = Messaggio
 [start]
@@ -243,7 +243,7 @@ Annotate... = Annota...
 Config = Configura
 
 Help = Aiuto
-About =
+About = Circa
 Shortcut Keys = Tasti di Scelta Rapida 
 FAQ = FAQ
 Tutorials = Tutorial
@@ -253,7 +253,7 @@ Essential Check = Controlli essenziali
 Simulation Tutorials = Tutorial di Simulazione
 Updated Instructions = Istruzioni Aggiornate
 Open File Format = Apri Formato File
-About Upgrade = 
+About Upgrade = Riguardo l'aggiornamento
 #Github Repository
 Github Repository = Github Repository
 #Support Forum
@@ -264,13 +264,13 @@ Bug Report = Segnala Bug
 Bug Reports = Segnala Bug
 Tips & Skill = Suggerimenti e Trucchi
 Ask for Help = Chiedi aiuto 
-Schematic Capture = 
-Spice Simulation = 
-Non-simulation mode = 
-PCB Layout = 
+Schematic Capture = Acquisizione Schematica
+Spice Simulation = Simulazione drogaggio
+Non-simulation mode = Modalità di non-simulazione
+PCB Layout = Layout della PCB
 General Discussion = Discussioni Generali
 More Information = Maggiori informazioni
-Privacy Policy = 
+Privacy Policy = Politica sulla riservatezza
 #Terms of Use & Privacy Policy
 Terms of Service = Termini di Servizio
 Plans and Pricing = Piani e Prezzi 
@@ -285,7 +285,7 @@ Order Capabilities =
 Order Price = Prezzo Ordine
 Order Essential Check = 
 Order FAQ = 
-Order Process = 
+Order Process = Processo di ordine
 Full Screen = Schermo intero
 
 Support = Supporto
@@ -382,7 +382,7 @@ middle = centrale
 end = fine
 inherit = eredita
 comment = commento
-spice = 
+spice = drogaggio
 normal = normale
 italic = corsivo
 Default = 
@@ -464,19 +464,19 @@ Voltage gain[V/V]
 Current gain[A/A]
 Transconductance[Mho]
 Transresistance[Ω]
-Voltage Source Type = 
-Current Source Type = 
-multimeter type = 
-power type = 
-Voltmeter Resistance(R)(Ω) = 
-Amperometer Resistance(R)(Ω) = 
+Voltage Source Type = Tipo di Sorgente Tensione
+Current Source Type = Tipo di Sorgente Corrente
+multimeter type = Tipo di Multimetro
+power type =
+Voltmeter Resistance(R)(Ω) = Resistenza Voltmetro(R)(Ω)
+Amperometer Resistance(R)(Ω) = Resistenza Amperometro(R)(Ω)
 mu.V = 
 mu.A = 
-Sine Wave = 
-Triangular Wave = 
-Rectangular Wave = 
-AC = 
-DC = 
+Sine Wave = Onda Sinusoidale
+Triangular Wave = Onda Triangolare
+Rectangular Wave = Onda Rettangolare
+AC = CA
+DC = CC
 SINE = 
 PULSE = 
 EXP = 
@@ -513,7 +513,7 @@ Signal Freq[Hz]
 Time[s]
 Value[V]
 Value[A]
-Waveforms = 
+Waveforms = Forma d'onda
 Duty cycle[%]
 Amplitude[Vp]
 Offset[V]
@@ -538,12 +538,12 @@ Iq[A]
 Cin[F]
 high = 
 low = 
-Oscilloscope = 
-Logic Analyzer = 
-Channel_A = 
-Channel_B = 
-Channel A = 
-Channel B = 
+Oscilloscope = Oscilloscopio
+Logic Analyzer = Analizzatore Logico
+Channel_A = Canale_A
+Channel_B = Canale_B
+Channel A = Canale A
+Channel B = Canale B
 Time = Tempo
 Reverse = 
 Simulation file exceed = Il file di simulazione supera
@@ -554,7 +554,7 @@ X pos.(Div): =
 Y pos.(Div): = 
 View meter... = 
 The circuit has components without simulation model: = 
-Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = 
+Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = L'intervallo di simulazione inserito è troppo breve, per favore attendi 5 secondi e prova di nuovo; se appare nuovamente questo messaggio, forse hai superato 500 simulazioni che sono il massimo numero di simulazioni giornaliere.
 Resistor1_US = 
 Resistor1_EU/IEC = 
 Resistor1_3D = 
@@ -573,12 +573,12 @@ Inductor_3D =
 Resistor2_US = 
 Resistor2_EU/IEC = 
 Resistor2_3D = 
-Multimeter = 
-Multimeter_3D = 
-Oscilloscope = 
-Oscilloscope_3D = 
-Signal_Generator = 
-Signal Generator_3D = 
+Multimeter = Multimetro
+Multimeter_3D = Multimetro_3D
+Oscilloscope = Oscilloscopio
+Oscilloscope_3D = Oscilloscopio_3D
+Signal_Generator = Generatore_di_Segnali
+Signal Generator_3D = Generatore_di_Segnali_3D
 Wattmeter = 
 Wattmeter_3D = 
 NSSWS1080T_3D = 
@@ -683,7 +683,7 @@ Fast_Crystal =
 Lamp = 
 BCD_Segment = 
 Seven_Segment = 
-Traffic_Light = 
+Traffic_Light = Semaforo
 Lamp Settings = 
 Power[W]
 Dropout Voltage[V]
@@ -698,8 +698,8 @@ SPST Settings =
 LogicAnalyzer Settings = 
 Fuse Settings = 
 Wattmeter Settings = 
-open = 
-close = 
+open = Apri
+close = Chiudi
 Common Anode = 
 Common Cathode = 
 AC Amplitude = 
@@ -754,25 +754,25 @@ Please select a png/gif/jpg file. = Per favore seleziona un file png/gif/jpg.
 Please select an image file. = Per favore seleziona un file immagine. 
 Select an image file = Seleziona un file con un immagine
 Insert Image to PCB = 
-Tolerance = 
-tolerance = 
+Tolerance = Tolleranza
+tolerance = tolleranza
 capacitance = 
-frequency = 
+frequency = Frequenza
 Rated Voltage = 
 Rated Current = 
-resistance = 
-Resistance = 
+resistance = resistenza
+Resistance = Resistenza
 Resistance[Ω]
-inductance = 
-Operating Temperature = 
+inductance = Induttanza
+Operating Temperature = Temperatura di Esercizio
 Shape Invert = 
-Image Size = 
+Image Size = Grandezza Immagine
 Color Tolerance = 
-Simplify Level = 
+Simplify Level = Livello Semplificato
 Corner Threshold = 
 
 #PCB Canvas Attributes
-Units = 
+Units = Unita
 Snap Size = 
 Other = 
 Routing Width = 
@@ -915,18 +915,18 @@ Find the password using your email = Ottenete la vostra password utilizzando la 
 
 #Dialog Login
 Login = Accesso
-Username or Email = 
+Username or Email = Nome Utente o Email
 Remember Me = Ricordami
 Third party = 
-Login and Register = 
+Login and Register = Login e Registrazione
 Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. = 
 
 #Dialog Reset Password
-Reset a password using your email = 
-Your registered email = 
+Reset a password using your email = Resetta la password tramite la tua email
+Your registered email = Email di registrazione
 
 #Dialog Reaction
-Re-send an activation code to your email = 
+Re-send an activation code to your email = Reinvia il codice di attivazione alla tua email
 
 #Dialog Invite
 Invite friends to register = Invita amici per la registrazione
@@ -943,12 +943,12 @@ This field is required. =
 
 #Dialog Change Your Password
 Change your password = Cambia la tua password
-Old password = 
-New Password = 
-Confirm Password = 
+Old password = Vecchia password
+New Password = Nuova Password
+Confirm Password = Conferma Password
 
 #Dialog Create New Design
-Save as a New Project = 
+Save as a New Project = Salva Come Nuovo Progetto
 Save as a schematic = 
 Save as Symbol = 
 Save as a spice Symbol = 
@@ -960,9 +960,9 @@ Save as a Schematic Module =
 Save as a PCB Module = 
 Save as 3D Model = 
 Save as a WaveForm = 
-Title = 
+Title = Titolo
 Share = 
-Add file = 
+Add file = Aggiungi File
 Visibility = 
 Allow Comments = 
 Public (Anyone can see this project but only you can modify it.) = Pubblico (Solo tu potrai modificare questo progetto. Tutti potranno vederlo)
@@ -977,9 +977,9 @@ Project does not exist =
 Document does not exist = 
 document not exists = 
 
-Categories = 
-Project = 
-Short description = 
+Categories = CAtegorie
+Project = Progetto
+Short description = Breve descrizione
 Content = 
 Modify this project info. = Modifica le informazioni di questo progetto.
 Modify this file info. = Modifica le informazioni di questo file.
@@ -987,7 +987,7 @@ Notice =
 Search for it before creating a new one. = Trovalo prima di crearlo.
 Manufacturer Part Number = 
 Supplier = 
-Or = 
+Or = O
 Supplier Part = 
 Supplier Part Number = 
 Link = 
